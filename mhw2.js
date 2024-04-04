@@ -1,7 +1,3 @@
-function isDeviceWidthBelow(value) {
-
-}
-
 const Thorfinn = document.querySelector("#section3 img");
 Thorfinn.addEventListener("click", ClickThorfinn);
 
@@ -15,6 +11,8 @@ function ClickThorfinn(event) {
     section3.classList.add("black");
 }
 
+
+
 const info = document.querySelector("#info");
 info.addEventListener("click", finfo);
 
@@ -25,7 +23,6 @@ function finfo() {
         el.classList.remove("hidden");
     } else { console.log("non accesso"); }
 }
-
 
 const x = document.querySelector("#x");
 x.addEventListener("click", fx);
